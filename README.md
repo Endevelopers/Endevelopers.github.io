@@ -14,6 +14,15 @@ Simply fork this repository and start editing the `_config.yml` file!
 
 > NOTE: GitHub Actions is required to deploy to GitHub Pages because GitHub [refuses to update their version of Jekyll](https://github.com/github/pages-gem/issues/651).
 
+# How to Build
+1. [Install Jekyll](https://jekyllrb.com/docs/installation/) and its prerequisites to your OS.
+1. Clone or download this repo, in command prompt go to the folder run `bundle install` command.
+1. Build the site using the command in `test.ps1`. (if not using powershell, change the file extension name)
+   - with `--safe` parameter you can make sure no 3rd party plugin added. (for GitHub pages development)
+   - with `--incremental` to update only individual files that were just changed instead of the whole site.
+1. The page will be up and running at the `localhost:4000/` address.
+
+
 # Added Features
 
 * **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
