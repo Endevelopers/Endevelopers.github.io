@@ -4,3 +4,7 @@ _site/
 Gemfile.lock
 *.gem
 .jekyll-cache
+.*
+!.git*
+!.editorconfig
+
