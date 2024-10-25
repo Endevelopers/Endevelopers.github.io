@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
+landing-title: 'Byte by Byte, Crafting a Future Powered by Code.'
 description: null
 image: null
 author: null

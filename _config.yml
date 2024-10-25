@@ -1,17 +1,17 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+title: Endeveloper's
+subtitle: Official
+email: endevs.contact@gmail.com
+description: We are commited to attain superiority in the educational field of programming.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://endevelopers.github.io" # the base hostname & protocol for your site
+author: Endeveloper's
+street_address: Banaba St. Phase 5 Greenwoods Executive Village
+city: Cainta
+state: Rizal
+zip_code: 1900
+country: Philippines
+phone: (0927) 824-7966
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -22,13 +22,13 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/andrewbanchich
+  GitHub: https://github.com/Endevelopers
   GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
+  Google-Plus: 
   Instagram:
-  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
-  Facebook:
+  LinkedIn: 
+  Twitter: 
+  Facebook: https://www.facebook.com/profile.php?id=100089827724947&mibextid=LQQJ4d
   Slack:
 
 # build settings
@@ -42,3 +42,4 @@ exclude:
 - LICENSE.md
 - CONTRIBUTING.md
 - README.md 
+- test.ps1
